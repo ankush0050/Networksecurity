@@ -55,7 +55,7 @@ class NetworkDataExtract():
 
 if __name__ == '__main__':
     FILE_PATH = "Network_Data\phisingData.csv"
-    DATABASE = "Ankush"
+    DATABASE = "Ankush0050"
     Collection = "NetworkData"
     Networkobj = NetworkDataExtract()
     records = Networkobj.csv_to_json_convertor(file_path=FILE_PATH)
